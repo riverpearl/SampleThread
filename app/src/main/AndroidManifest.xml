@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".PostActivity" />
-        <activity android:name=".AsyncActivity"></activity>
+        <activity android:name=".AsyncActivity" />
+        <activity android:name=".TimeoutActivity" android:exported="true"></activity>
     </application>
 
 </manifest>
